@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    height: 400px;
+    width: 400px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid black;
+}
+
+.mark-box {
+    font-size: 6rem;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.mark-box:hover {
+    background-color: aliceblue;
+}
