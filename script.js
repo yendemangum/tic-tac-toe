@@ -185,8 +185,8 @@ resetButton.addEventListener("click", () => {
 
 })
 
-const player1 = createPlayer("Mark", "x");
-const player2 = createPlayer("Er", "o");
+const player1 = createPlayer(prompt("Player 1 name"), "x");
+const player2 = createPlayer(prompt("Player 2 name"), "o");
 const game1 = createGame(player1, player2);
 let currentPlayer = player1;
 
